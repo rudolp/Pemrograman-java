@@ -28,7 +28,10 @@ public class Segitiga_siku_kiri_bawah {
                 
                 for (int i=1;i<=alas;i++)
         	{
-                    
+                    for(int x=alas-1;x>=i;x--) 
+                    { 
+			System.out.print(" ");
+                    }
                 }
         }
     }
