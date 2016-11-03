@@ -18,6 +18,10 @@ public class Segitiga_sama_kaki {
         
         boolean menu =true;
         while(menu)
+        {
+            System.out.print("Masukkan jumlah alas = ");
+        	alas = scan.nextInt();
+        }
         
     }
     
