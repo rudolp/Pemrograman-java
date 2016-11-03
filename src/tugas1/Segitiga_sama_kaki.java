@@ -21,6 +21,11 @@ public class Segitiga_sama_kaki {
         {
             System.out.print("Masukkan jumlah alas = ");
         	alas = scan.nextInt();
+                
+            System.out.println("\nCetak Segitiga Siku Kanan Atas");
+        	//Untuk memudahkan User interface saja
+                
+                for (int i=1;i<=alas;i++)
         }
         
     }
