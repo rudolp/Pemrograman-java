@@ -26,6 +26,12 @@ public class Segitiga_sama_kaki {
         	//Untuk memudahkan User interface saja
                 
                 for (int i=1;i<=alas;i++)
+                {
+                    for(int x=alas-1;x>=i;x--) 
+                    { 
+			System.out.print(" ");
+                    }
+                }
         }
         
     }
