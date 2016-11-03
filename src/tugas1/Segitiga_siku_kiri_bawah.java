@@ -33,7 +33,7 @@ public class Segitiga_siku_kiri_bawah {
 			System.out.print(" * ");
                     }
                 System.out.println();
-                }
+                } 
         }
     }
 }
