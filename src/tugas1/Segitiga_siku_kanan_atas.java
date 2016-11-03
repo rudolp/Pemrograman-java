@@ -36,8 +36,16 @@ public class Segitiga_siku_kanan_atas {
                     { 
 			System.out.print(" ");
                     }
+                    
+                    for(int x=1;x<=i;x++)
+                    { 
+                        System.out.print("*");
+                    }
+                    System.out.println();
                 }
-            
+            System.out.print("\nIngin Mencoba lagi (Y/N) ?:");
+            String cek = scan.next();
+            //Untuk mereturn atau mengclose program
         }
         }
     }
