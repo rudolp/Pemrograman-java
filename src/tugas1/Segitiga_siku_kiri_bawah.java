@@ -30,8 +30,9 @@ public class Segitiga_siku_kiri_bawah {
         	{
                     for(int x=1;x<=i;x++) 
                     { 
-			System.out.print(" ");
+			System.out.print(" * ");
                     }
+                System.out.println();
                 }
         }
     }
