@@ -24,7 +24,12 @@ public class Segitiga_siku_kanan_atas {
         
         	System.out.println("\nCetak Segitiga Siku kiri atas");
         	//Untuk memudahkan User interface saja
+                
+        for (int i=alas;i<=1;i--)
+        	{
+                }
         }
+                }
     }
     
 }
