@@ -25,6 +25,11 @@ public class Segitiga_siku_kiri_bawah {
         
         	System.out.println("\nCetak Segitiga Siku Kiri Bawah");
         	//Untuk memudahkan User interface saja
+                
+                for (int i=1;i<=alas;i++)
+        	{
+                    
+                }
         }
     }
 }
