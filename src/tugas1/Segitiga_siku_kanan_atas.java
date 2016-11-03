@@ -17,7 +17,14 @@ public class Segitiga_siku_kanan_atas {
         int alas;
         
         boolean menu =true;
-        while(menu)   
+        while(menu)
+        {
+            System.out.print("Masukkan jumlah alas = ");
+        	alas = scan.nextInt();
+        
+        	System.out.println("\nCetak Segitiga Siku kiri atas");
+        	//Untuk memudahkan User interface saja
+        }
     }
     
 }
