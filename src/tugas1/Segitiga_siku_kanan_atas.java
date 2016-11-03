@@ -25,9 +25,9 @@ public class Segitiga_siku_kanan_atas {
         	System.out.println("\nCetak Segitiga Siku kanan atas");
         	//Untuk memudahkan User interface saja
                 
-        for (int i=alas;i<=1;i--)
+        for (int i=alas;i>=1;i--)
         	{
-                    for (int x=i;x<alas;x++)
+                    for (int j=i;j<alas;j++)
                     {
                         System.out.print(" ");
                     }

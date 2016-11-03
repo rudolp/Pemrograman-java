@@ -11,10 +11,13 @@ import java.util.Scanner;
  *
  * @author windows10
  */
-public class Segitiga_siku_kiri_atas {
-    
+public class Segitiga_siku_kanan_bawah {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-      
+        // TODO code application logic here
         Scanner scan = new Scanner(System.in);
         int alas;
         
@@ -24,17 +27,23 @@ public class Segitiga_siku_kiri_atas {
             System.out.print("Masukkan jumlah alas = ");
         	alas = scan.nextInt();
         
-        	System.out.println("\nCetak Segitiga Siku kiri atas");
+        	System.out.println("\nCetak Segitiga Siku Kanan Bawah");
         	//Untuk memudahkan User interface saja
                 
-                for (int i=alas;i>=1;i--)
+                for (int i=1;i<=alas;i++)
         	{
-                    for (int x=0;x<i;x++)
-                    {
-                        System.out.print(" * ");
+                    for(int x=alas-1;x>=i;x--) 
+                    { 
+			System.out.print(" ");
+                    }
+                    
+                    for(int x=1;x<=i;x++)
+                    { 
+                        System.out.print("*");
                     }
                     System.out.println();
                 }
+                
             System.out.print("\nMau Mencoba lagi (y/n) ?: ");
             String cek = scan.next();
             //Untuk mereturn atau mengclose program
@@ -44,10 +53,8 @@ public class Segitiga_siku_kiri_atas {
                     menu = true;
         	}
             else
-            System.exit(0);    
-        
-                
+            System.exit(0);
         }
     }
-    
 }
+    
