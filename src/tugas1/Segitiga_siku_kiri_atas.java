@@ -24,19 +24,28 @@ public class Segitiga_siku_kiri_atas {
             System.out.print("Masukkan jumlah alas = ");
         	alas = scan.nextInt();
         
-        	System.out.println("\nCetak Segitiga Siku Kanan Bawah");
+        	System.out.println("\nCetak Segitiga Siku kiri atas");
         	//Untuk memudahkan User interface saja
                 
                 for (int i=alas;i<=1;i--)
         	{
                     for (int x=0;x<i;x++)
                     {
-                        System.out.print(x+1);
+                        System.out.print("*");
                     }
                     System.out.println();
                 }
-                
-        }
+            System.out.print("\nMau Mencoba lagi (y/n) ?: ");
+            String cek = scan.next();
+            //Untuk mereturn atau mengclose program
+            
+            if(cek.equalsIgnoreCase("y"))
+        	{
+                    menu = true;
+        	}
+            else
+            System.exit(0);    
+        
                 
         }
     }
