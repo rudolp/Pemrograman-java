@@ -24,7 +24,7 @@ public class Segitiga_siku_kanan_atas {
         boolean menu =true;
         while(menu)
         {
-            System.out.print("Masukkan jumlah alas =");
+            System.out.print("Masukkan jumlah alas = ");
         	alas = scan.nextInt();
         
         	System.out.println("\nCetak Segitiga Siku Kanan Atas");
@@ -43,9 +43,14 @@ public class Segitiga_siku_kanan_atas {
                     }
                     System.out.println();
                 }
-            System.out.print("\nIngin Mencoba lagi (Y/N) ?:");
+            System.out.print("\nMau Mencoba lagi (y/n) ?: ");
             String cek = scan.next();
             //Untuk mereturn atau mengclose program
+            
+            if(cek.equalsIgnoreCase("N"))
+        	{
+                    menu = false;
+        	}
         }
         }
     }
