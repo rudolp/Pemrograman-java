@@ -20,6 +20,13 @@ public class Segitiga_siku_kiri_atas {
         
         boolean menu =true;
         while(menu)
+        {
+            System.out.print("Masukkan jumlah alas = ");
+        	alas = scan.nextInt();
+        
+        	System.out.println("\nCetak Segitiga Siku Kanan Bawah");
+        	//Untuk memudahkan User interface saja
+        }
     }
     
 }
