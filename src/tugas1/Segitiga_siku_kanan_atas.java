@@ -32,7 +32,10 @@ public class Segitiga_siku_kanan_atas {
                 
                 for (int i=1;i<=alas;i++)
         	{
-                
+                    for(int x=alas-1;x>=i;x--) 
+                    { 
+			System.out.print(" ");
+                    }
                 }
             
         }
