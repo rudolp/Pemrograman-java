@@ -35,7 +35,22 @@ public class Segitiga_sama_kaki {
                     { 
 			System.out.print("*");
                     }
+                    for (int l=1;l<=i-1;l++)
+                    {
+			System.out.print("*");
+                    }
+                    System.out.println();
                 }
+            System.out.print("\nMau Mencoba lagi (y/n) ?: ");
+            String cek = scan.next();
+            //Untuk mereturn atau mengclose program
+            
+            if(cek.equalsIgnoreCase("y"))
+        	{
+                    menu = true;
+        	}
+            else
+            System.exit(0);
         }
         
     }
