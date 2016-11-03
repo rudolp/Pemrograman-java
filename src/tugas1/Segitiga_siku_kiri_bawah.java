@@ -19,5 +19,12 @@ public class Segitiga_siku_kiri_bawah {
         
         boolean menu =true;
         while(menu)
+        {
+            System.out.print("Masukkan jumlah alas = ");
+        	alas = scan.nextInt();
+        
+        	System.out.println("\nCetak Segitiga Siku Kiri Bawah");
+        	//Untuk memudahkan User interface saja
+        }
     }
 }
