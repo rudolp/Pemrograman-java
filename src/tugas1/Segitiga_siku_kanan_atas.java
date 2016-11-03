@@ -43,15 +43,18 @@ public class Segitiga_siku_kanan_atas {
                     }
                     System.out.println();
                 }
+                
             System.out.print("\nMau Mencoba lagi (y/n) ?: ");
             String cek = scan.next();
             //Untuk mereturn atau mengclose program
             
-            if(cek.equalsIgnoreCase("N"))
+            if(cek.equalsIgnoreCase("y"))
         	{
-                    menu = false;
+                    menu = true;
         	}
-        }
+            else
+            System.exit(0);
         }
     }
+}
     
